@@ -1,0 +1,15 @@
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).csproj.AssemblyReference.cache
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).AssemblyInfoInputs.cache
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).AssemblyInfo.cs
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).csproj.CoreCompileInputs.cache
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\bin\Debug\net6.0\c#(dotnet_project).exe
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\bin\Debug\net6.0\c#(dotnet_project).deps.json
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\bin\Debug\net6.0\c#(dotnet_project).runtimeconfig.json
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\bin\Debug\net6.0\c#(dotnet_project).dll
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\bin\Debug\net6.0\c#(dotnet_project).pdb
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).dll
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\refint\c#(dotnet_project).dll
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).pdb
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\c#(dotnet_project).genruntimeconfig.cache
+C:\Users\xljzx\OneDrive\바탕 화면\대학\c#(dotnet_project)\obj\Debug\net6.0\ref\c#(dotnet_project).dll

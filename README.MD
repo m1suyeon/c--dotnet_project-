@@ -1,0 +1,2 @@
+[프로젝트 메인주소](https://github.com/m1suyeon/C_SHARP_PROJECT_.git)
+-주석과 변수, 도전문제 완료!(프로그램 1~6, 7번 도전 문제)
