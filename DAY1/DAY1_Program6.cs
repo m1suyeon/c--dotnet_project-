@@ -3,7 +3,7 @@ public class DAY1_PROGRAM6{
     static void printValue(dynamic val){
         Console.WriteLine(val.GetType());
     }
-    static void Main(string[] args){
+    static void Main6(string[] args){
         dynamic st_end, st_end2;
         //console.WriteLine("데이터값: {0}, 데이터 타입:"+ st_end.Gettype(), st_end);
         st_end =100; st_end2=null;
