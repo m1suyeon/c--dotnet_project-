@@ -1,6 +1,6 @@
 namespace C_SHARP_PROJECT;
 public class DAY2_PROGRAM7_2{
-    static void Main(String []args){
+    static void Main7_2(String []args){
         int pw = 123123;
         string some;
         int count=1;
