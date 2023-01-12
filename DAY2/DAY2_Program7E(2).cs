@@ -1,7 +1,7 @@
 namespace C_SHARP_PROJECT;
 public class DAY2_PROGRAM7_2{
     static void Main7_2(String []args){
-        int pw = 123123;
+        /*int pw = 123123;
         string some;
         int count=1;
         while(true){
@@ -22,6 +22,31 @@ public class DAY2_PROGRAM7_2{
                     Console.WriteLine("로그인 실패, 5회 제한: 현재 {0}회", count);
                     count++;
                 }
+        }*/
+        int sz;
+        string s;
+        int failed_count=1;
+
+        while(true){
+            Console.WriteLine("비밀번호 입력: ");
+            s=Console.ReadLine();
+            sz=s.Length;
+
+            if(failed_count==5){
+                Console.WriteLine("프로그램 종료 후 재시도 해주세요");
+                break;
+            }
+            if(sz>=6&&sz<=9){
+                if(s=="123123"){
+                    Console.WriteLine("로그인 성공");
+                    break;
+                }
+                else{
+                    Console.WriteLine("비밀번호가 틀립니다");
+                }
+            }
+            Console.WriteLine("로그인 실패, 5회 제한: 현재 {0}회", failed_count);
+            failed_count++;
         }
     }
 }
