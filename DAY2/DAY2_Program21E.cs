@@ -1,7 +1,7 @@
 namespace C_SHARP_PROJECT;
 
 public class DAY2_PROGRAM21_1{
-    static void Main(String []args){
+    static void Main21_1(String []args){
         program_start();
     }
     static void program_start(){
