@@ -1,21 +1,20 @@
 namespace C_SHARP_PROJECT;
 public class DAY3_PROGRAM3{
-    static void Main3(String []args){
-        Console.WriteLine("while문을 테스트합니다. 1개의 수 입력: ");
-        int input = Convert.ToInt32(Console.ReadLine());
-
-        while(++input <= 10){
-            Console.WriteLine("반복 {0}", input);
-        }
-
-        Console.WriteLine("1개의 수를 입력: ");
-        input = Convert.ToInt32(Console.ReadLine());
-        while(input<=10){
-            Console.WriteLine("반복{0}", input);
-            --input;
-            if(input<0){
-                break;
-            }
-        }
+static string admin_Name = "관리자"; // static 클래스 변수다.
+static void Main3(String []args){
+        Console.WriteLine("접근 지정자를 구분하자.");
+        string stName = "아저씨";
+        admin_get std = new admin_get(); // 객체 인스턴스 생성
+        std.oldMember1(stName); // public 함수로 접근 가능
+        // std.oldMember2(stName); 에러. 접근 하려면? 접근지정자 필요
     }
+}
+class admin_get{ 
+    public void oldMember1(string name){ // public 으로 지정
+        Console.WriteLine("{0} 선생1. 반갑습니다!", name);
+    }
+    static void oldMember2(string name){ // public이 없으면 기본 private
+        Console.WriteLine("{0} 선생2. 방갑습니다!", name);
+    }
+
 }

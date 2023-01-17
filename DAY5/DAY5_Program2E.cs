@@ -1,6 +1,6 @@
 namespace C_SHARP_PROJECT;
 public class DAY5_PROGRAM2{
-    static void Main(String[] args)
+    static void Main2(String[] args)
     {
         int number = 0;
         Console.WriteLine("주민등록번호 13자리 입력:");

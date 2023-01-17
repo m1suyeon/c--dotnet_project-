@@ -1,21 +1,19 @@
 namespace C_SHARP_PROJECT;
 public class DAY3_PROGRAM1{
+    static String admin_Name="관리자";
     static void Main1(String []args){
-        Console.WriteLine("while문을 테스트합니다. 1개의 수 입력: ");
-        int input = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("개선된 객체지향의 세계로 오신 것을 환영");
+        Console.WriteLine("학생 이름 입력: ");
+        string stName = Console.ReadLine();
 
-        while(++input <= 10){
-            Console.WriteLine("반복 {0}", input);
-        }
+        student std1 = new student();
+        student std2 = new student();
+        std1.newMember(stName);
+    }
+}
 
-        Console.WriteLine("1개의 수를 입력: ");
-        input = Convert.ToInt32(Console.ReadLine());
-        while(input<=10){
-            Console.WriteLine("반복{0}", input);
-            --input;
-            if(input<0){
-                break;
-            }
-        }
+class student{
+    public void newMember(string name){
+        Console.WriteLine("{0}학생,  반갑습니다.",name);
     }
 }

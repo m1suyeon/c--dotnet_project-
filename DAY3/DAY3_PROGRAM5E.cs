@@ -1,8 +1,9 @@
 ﻿namespace C_SHARP_PROJECT;
-public class DAY2_PROGRAM30_Exam
+public class DAY3_PROGRAM5E
 {
-public static void Main30(string[] args)
+public static void Main5(string[] args)
 {
+    student2 st = new student2();
     string[] name = new string[3];
     int[] score = new int[3];
     int menu=0;
@@ -11,19 +12,21 @@ public static void Main30(string[] args)
       Console.WriteLine("메뉴 선택하세요 : 1. 학생 점수 입력, 2. 학생 점수 출력, 3. 프로그램 종료");
       menu = int.Parse(Console.ReadLine());
       if(menu == 1){
-        input_score1(ref name, ref score);
+        st.input_score1(ref name, ref score);
       }
       else if(menu == 2){
-        print_info(ref name, ref score);
+        st.print_info(ref name, ref score);
       }
       else{
         Console.WriteLine("프로그램을 종료합니다.");
         break;
       }
     }
-  }
-
-    public static void input_score1(ref string[] name, ref int[] score)
+}
+}
+public class student2
+{
+  public void input_score1(ref string[] name, ref int[] score)
   {
   Console.WriteLine("학생 이름과 점수를 입력합니다 :");
   for(int i=0; i<3; i++)
@@ -35,7 +38,8 @@ public static void Main30(string[] args)
   }
   Console.WriteLine("학생 정보 입력 완료!");
   }
-  public static void print_info(ref string[] name, ref int[] score)
+  
+  public void print_info(ref string[] name, ref int[] score)
   {
     double avg = 0;
     for(int i=0; i<3; i++){
