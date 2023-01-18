@@ -10,7 +10,7 @@ static void Main6(string []args){
 }
 class initial{
     private readonly int number;
-    private const int number2=5;
+    private const int number2 = 5;
     public initial(){
         number=33;
         Console.WriteLine("initial: 객체 생성 시 1회 수행.");

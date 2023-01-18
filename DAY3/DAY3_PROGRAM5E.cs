@@ -28,7 +28,7 @@ public class student2
 {
   public void input_score1(ref string[] name, ref int[] score)
   {
-  Console.WriteLine("학생 이름과 점수를 입력합니다 :");
+  Console.WriteLine("학생 이름과 점수를 입력합니다 : ");
   for(int i=0; i<3; i++)
   {
     Console.WriteLine("{0}번쨰 학생의 이름은? :", i);

@@ -8,7 +8,7 @@ static void Main2(String []args){
         string stName = Console.ReadLine(); // 지역변수
         admin_new std = new admin_new(); // 객체 인스턴스 생성
         admin_new.oldMember(stName); // 클래스 직접 접근 가능(객체생성 없이)
-        admin_new.temp = "임시에 접근"; // 클래스 직접 접근 가능(객체생성 없이)
+        admin_new.temp ="임시에 접근"; // 클래스 직접 접근 가능(객체생성 없이)
         //std.newMember(stName); // 학생은 직접 접근 안될까?
     }
 }

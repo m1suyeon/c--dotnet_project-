@@ -12,7 +12,7 @@ static void Main8(string []args){
     }
 }
 class initial3{
-    public initial3(int a){//public 생성자
+    public initial3(int a){// public 생성자
     int state=a;
         Console.WriteLine("initial: 인자값 {0}",state);
     }

@@ -1,10 +1,10 @@
 namespace C_SHARP_PROJECT;
-public class DAY3_PROGRAM9E
+public class DAY3_PROGRAM15E
 {
-public static void Main9(string[] args)
+public static void Main(string[] args)
 {
-    student3 st = new student3();
-    get_password word = new get_password();
+    student4 st = new student4();
+    student4.student_login word = new student4.student_login();
 
     string[] name = new string[3]{"Guest","Guest","Guest"};
     int[] score = new int[3];
@@ -35,7 +35,7 @@ public static void Main9(string[] args)
     }
     }
 }
-public class student3
+public class student4
 {
     public void input_score1(ref string[] name, ref int[] score)
     {
@@ -59,11 +59,12 @@ public class student3
     }
         Console.WriteLine("학생 3명의 평균 점수는 {0}점", avg/3);
   }
-}
 
-public class get_password{
+public class student_login{
     private const int number2 = 123123;
     public int get_pass(){//public 생성자, 오버로딩o
         return number2;
     }
+}
+
 }

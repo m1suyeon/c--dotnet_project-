@@ -11,7 +11,7 @@ public class DAY3_PROGRAM4{
     }
 }
 class admin_get2{
-    private string info1="기밀 정보";
+    private string info1 = "기밀 정보";
     private int info2 = 901112;
 
     public string get_info1(){

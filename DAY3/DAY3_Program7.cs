@@ -12,7 +12,7 @@ class initial2{
         Console.WriteLine("initial: 클래스 로드시에 무조건 호출");
     }public initial2(){//public 생성자
         Console.WriteLine("initial: 인자값 없음");
-    }public initial2(int a){//public 생성자, 오버로딩o
+    }public initial2(int a){// public 생성자, 오버로딩o
         Console.WriteLine("initial: 정수 받음");
     }
     public initial2(int a, string name){//public 생성자, 오버로딩o
