@@ -1,7 +1,7 @@
 namespace C_SHARP_PROJECT;
 public class DAY3_PROGRAM15E
 {
-public static void Main(string[] args)
+public static void Main15(string[] args)
 {
     student4 st = new student4();
     student4.student_login word = new student4.student_login();
