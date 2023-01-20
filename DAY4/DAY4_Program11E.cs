@@ -1,10 +1,9 @@
 namespace C_SHARP_PROJECT;
 class DAY4_Program11E
 {
-    static void Main(string []args){
+    static void Main11(string []args){
         Wonder_woman SM = new Wonder_woman();
-        SM.Skill_1();
-        SM.Skill_2();
+
     }
 }
 
